@@ -1,0 +1,307 @@
+@media (max-width:1350px) {
+    header {
+        padding: 10px 20px;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .benner-buttom {
+        padding: 60px 40px;
+        box-sizing: border-box;
+    }
+    .benner-buttom .video-text h3 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .benner-buttom .video-text p {
+        font-size: 1.1em;
+    }
+    .reporting-section .r-top {
+        padding: 0 20px;
+    }
+    .r-bottom {
+        padding: 0 20px;
+    }
+    .b-item {
+        padding: 0 20px;
+    }
+    .contact-section {
+        padding: 100px 30px;
+    }
+    .box-item .service-item .s-text h3 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+    .box-item {
+        margin-left: 40px;
+    }
+    .box-item .service-item .s-text p {
+        font-size: 15px;
+    }
+}
+@media (max-width:1200px) {
+    header nav ul li a {
+        font-size: 17px;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .logo span {
+        font-size: 20px;
+    }
+    .service-text h1 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .service-text p {
+        font-size: 24px;
+    }
+    .p-top h2 {
+        font-size: 45px;
+    }
+    .p-top p {
+        font-size: 25px;
+
+    }
+    .p-bottom {
+        padding: 0 20px;
+    }
+    .p-bottom .p-same .p-list ul li {
+        font-size: 22px;
+    }
+    .p-bottom .p-same .p-list ul span {
+        font-size: 32px;
+
+    }
+    .r-img h2 {
+        font-size: 25px;
+    }
+    .r-img p {
+        font-size: 18px;
+        line-height: 1.2em;
+
+    }
+    .box-item .service-item .s-text h3 {
+        font-size: 20px;
+
+    }
+
+
+
+}
+/* main css */
+.primary-menu span {
+    display: none;
+}
+
+@media (max-width:992px) {
+    header {
+        position: inherit;
+    }
+    header nav {
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+    }
+    header nav ul {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+    .primary-menu span {
+        display: block;
+        font-size: 40px;
+        color: #6278DF;
+        cursor: pointer;
+    }
+    .button {
+        width: 250px;
+        text-align: right;
+        position: absolute;
+        right: 20px;
+        top: 64px;
+    }
+    header .logo {
+        width: 100%;
+        text-align: center;
+    }
+    header .logo figure img {
+        height: 60px;
+        float: inherit;
+    }
+    .logo span {
+        position: relative;
+        top: -20px;
+    }
+    .benner .benner-text p {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .benner .benner-text h2 {
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+    .benner .benner-text a {
+        padding: 10px 25px;
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .benner-buttom .video-text h3 {
+        font-size: 36px;
+    }
+    .service-text h1 {
+        font-size: 30px;
+    }
+    .service-text p {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .p-bottom .p-same {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .t-image {
+        margin-bottom: 50px;
+        width: 48%;
+        text-align: center;
+    }
+    .news-letter .n-text p {
+        font-size: 20px;
+        margin-bottom: 34px;
+    }
+    .news-letter .n-text h2 {
+        font-size: 40px;
+    }
+    .r-text-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .r-text-right {
+        width: 100%;
+    }
+    .r-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-text h2 {
+        font-size: 35px;
+    }
+    .same-item {
+        width: 100%;
+        margin-right: 0;
+    }
+    .same-item .t-user-text {
+        width: 100%;
+        height: auto;
+    }
+    .t-user-text::after {
+        content: "";
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .box-item .service-item {
+        width: 46%;
+    }
+
+}
+@media (max-width:768px) {
+    .button {
+        top: 73px;
+    }
+    .button-a {
+        font-size: 20px;
+        padding: 8px 25px;
+    }
+    .benner {
+        padding: 100px 0;
+    }
+    .benner .benner-text p {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .benner .benner-text h2 {
+        font-size: 45px;
+        margin-bottom: 28px;
+    }
+    .benner .benner-text a {
+        padding: 10px 18px;
+        font-size: 20px;
+    }
+    .benner-buttom .video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .benner-buttom .video-text {
+        width: 100%;
+    }
+    .t-bottom {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    .t-image {
+        width: 100%;
+    }
+    .n-form {
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    .e-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .b-text h2 {
+        font-size: 29px;
+    }.box-item {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    .box-item .service-item {
+        width: 100%;
+    }
+}
+@media (max-width:576px) {
+    .benner .benner-text p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .benner .benner-text h2 {
+        font-size: 38px;
+        margin-bottom: 22px;
+    }
+    .benner .benner-text a {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    .service-text h1 {
+        font-size: 25px;
+    }
+    .service-text p {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .news-letter .n-text p {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    .news-letter .n-text h2 {
+        font-size: 30px;
+    }
+    .b-text p {
+        font-size: 17px;
+    }
+    .b-text h2 {
+        font-size: 20px;
+        margin-bottom: 36px;
+    }
+}
